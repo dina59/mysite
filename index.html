@@ -24,6 +24,34 @@
       font-size: 32px;
     }
 
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    nav a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+
     main {
       margin: 20px;
     }
@@ -51,13 +79,22 @@
     <p>IT Engineering Student | Gorkha, Nepal</p>
   </header>
 
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <main>
-    <section>
+    <section id="about">
       <h2>About Me</h2>
       <p>Hello, I'm Dina Shrestha, an IT Engineering student from Gorkha, Nepal. I have a passion for developing web and mobile applications. I love bringing ideas to life through coding and creating user-friendly experiences.</p>
     </section>
 
-    <section>
+    <section id="skills">
       <h2>Skills</h2>
       <ul>
         <li>HTML5</li>
@@ -73,26 +110,9 @@
       </ul>
     </section>
 
-    <section>
+    <section id="projects">
       <h2>Projects</h2>
       <ul>
         <li><a href="#">Project 1</a> - Web Application using React and Node.js</li>
         <li><a href="#">Project 2</a> - Mobile Application for Android using Java</li>
-        <li><a href="#">Project 3</a> - E-commerce Website using HTML, CSS, and JavaScript</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <p>Email: dina.shrestha@example.com</p>
-      <p>Phone: +977 1234567890</p>
-      <p>LinkedIn: <a href="#">linkedin.com/in/dina-shrestha</a></p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2023 Dina Shrestha | IT Engineering Student</p>
-  </footer>
-</body>
-
-</html>
+        <li><a href="#">Project 3</a> - E-commerce Website using HTML, CSS, and JavaScript</
